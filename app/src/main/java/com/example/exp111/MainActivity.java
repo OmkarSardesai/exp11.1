@@ -33,19 +33,19 @@ public class MainActivity extends AppCompatActivity {
                 String msg = "selected";
 
                 if (c1.isChecked()) {
-                    msg = msg + "\nMAD";
+                    msg = msg + "MAD";
                 }
                 if (c2.isChecked()) {
-                    msg = msg + "\nJAVA";
+                    msg = msg + "JAVA";
                 }
                 if (c3.isChecked()) {
-                    msg = msg + "\nHTML";
+                    msg = msg + "HTML";
                 }
                 if (c4.isChecked()) {
-                    msg = msg + "\nCSS";
+                    msg = msg + "CSS";
                 }
                 if (c5.isChecked()) {
-                    msg = msg + "\nC++";
+                    msg = msg + "C++";
                 }
                 Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
             }
